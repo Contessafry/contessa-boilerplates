@@ -2,10 +2,11 @@
     "name": "contessa-boilerplates",
     "version": "1.0.0",
     "description": "A package that provides ready-to-use React boilerplates, installable directly in your project.",
-    "main": "src/index.ts",
+    "main": "dist/index.js",
     "types": "src/index.ts",
     "scripts": {
-        "postinstall": "tsc src/index.ts && node src/index.js"
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
     },
     "keywords": [
         "react",
@@ -25,7 +26,8 @@
     },
     "homepage": "https://github.com/Contessafry/contessa-boilerplates#readme",
     "files": [
-        "src"
+        "src",
+        "dist"
     ],
     "dependencies": {
         "typescript": "^5.0.0"
