@@ -1,0 +1,39 @@
+{
+    "name": "contessa-boilerplates",
+    "version": "1.0.0",
+    "description": "Pacchetto per installare boilerplates Contessa direttamente nel progetto",
+    "main": "dist/index.js",
+    "bin": {
+        "contessa": "./dist/index.js"
+    },
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build",
+        "postinstall": "node dist/index.js"
+    },
+    "keywords": [
+        "react",
+        "hooks",
+        "storage",
+        "localStorage",
+        "sessionStorage"
+    ],
+    "author": "",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Contessafry/contessa-boilerplates.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Contessafry/contessa-boilerplates/issues"
+    },
+    "homepage": "https://github.com/Contessafry/contessa-boilerplates#readme",
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "@types/react": "^19.1.8",
+        "typescript": "^5.0.0"
+    },
+    "peerDependencies": {
+        "react": ">=16.8.0"
+    }
+}
