@@ -9,7 +9,7 @@
     },
     "scripts": {
         "build": "tsc",
-        "prepare": "npm run build",
+        "preinstall": "npm run build",
         "postinstall": "node dist/index.js"
     },
     "keywords": [
