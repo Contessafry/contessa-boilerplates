@@ -1,7 +1,7 @@
 {
     "name": "contessa-boilerplates",
     "version": "1.0.0",
-    "description": "Pacchetto per installare boilerplates Contessa direttamente nel progetto",
+    "description": "A package that provides ready-to-use React boilerplates, installable directly in your project.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "bin": {
