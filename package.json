@@ -26,8 +26,5 @@
     "homepage": "https://github.com/Contessafry/contessa-boilerplates#readme",
     "files": [
         "src"
-    ],
-    "peerDependencies": {
-        "react": ">=16.8.0"
-    }
+    ]
 }
